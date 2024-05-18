@@ -34,6 +34,7 @@ while(1):
                 SpeakText(MyText)
             else:
                 print("Waiting for activation...")
+            
 
     except sr.RequestError as e:
         print("Could not request results; {0}".format(e))
